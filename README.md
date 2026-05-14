@@ -77,16 +77,16 @@ The main objective of this project is to analyze customer behavior and predict t
 
 | Model | Accuracy | Advantages | Disadvantages |
 |-------|-----------|-------------|---------------|
-| Logistic Regression | Good | Simple, fast, and easy to interpret | Less effective for complex data |
-| Decision Tree Classifier | Better | Easy to understand and visualize | Can overfit the data |
+| Logistic Regression | Very High | Simple, fast, easy to interpret, and achieved best accuracy | Less effective for highly complex data |
+| Decision Tree Classifier | Good | Easy to understand and visualize | Can overfit the data |
 | Random Forest Classifier | High | High accuracy and reduces overfitting | Training time is higher |
-| XGBoost Classifier | Very High | Excellent performance and better prediction accuracy | More complex and computationally expensive |
+| XGBoost Classifier | High | Excellent performance and strong prediction capability | More complex and computationally expensive |
 
 ## 🏆 Best Model
-✅ XGBoost Classifier achieved the best performance compared to other models based on Accuracy, Precision, Recall, and F1-Score.
+✅ Logistic Regression achieved the best accuracy among all models used in this project.
 
 ## 📌 Conclusion
-This project successfully predicts customer transaction behavior using Machine Learning techniques. Various classification algorithms were implemented and compared to identify the best-performing model. After evaluation, XGBoost provided the highest accuracy and better prediction performance.
+This project successfully predicts customer transaction behavior using Machine Learning techniques. Various classification algorithms were implemented and compared to identify the best-performing model. After evaluation, Logistic Regression achieved the highest accuracy and provided reliable prediction performance.
 
 The project demonstrates the importance of data preprocessing, feature engineering, and model evaluation in building an effective Machine Learning solution. This system can help businesses improve customer targeting, analyze customer behavior, support marketing strategies, and make smarter data-driven decisions.
 
